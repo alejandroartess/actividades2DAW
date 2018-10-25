@@ -9,27 +9,19 @@
     <script src="main.js"></script>
 </head>
 <body>
-  <!--Aquí introducimos el logo con el titulo-->
   <header>
+  <!--Aquí introducimos el logo con el titulo-->
   <a href="index.html"><img src="images/bicicleta.png" alt="BICISVAL"></a>
-  <h1>ALQUILER</h1>
+  <h1>TALLER</h1>
   <br>
   <!--Formulario para elegir si se quiere la página en Castellano o Valenciano-->
   <form>
     <button class="button">CASTELLANO</button>
     <button class="button">VALENCIANO</button>
     <input type="search" id="miBusqueda" name="q">
-  <!--Aqui el usuario podra buscar lo que desee-->
+    <!--Aqui el usuario podra buscar lo que desee-->
     <button>Buscar</button>
   </form>
-  <!--Aqui el usuario seleccionara la categoria de bicicleta que busca-->
-  <select class="" name="">
-    <option value="">CATEGORIAS</option>
-    <option value="">Urbanas</option>
-    <option value="">Carretera</option>
-    <option value="">Montaña</option>
-  </select>
-  <br>
   </header>
   <!--Barra de navegacion-->
   <nav>
@@ -38,16 +30,24 @@
   <a href="taller.html">TALLER</a>
   <a href="dondeestamos.html">DONDE ESTAMOS</a>
   </nav>
-  <!--Todo el contenido central-->
+   <!--Todo el contenido central-->
   <section>
-    <img src="images/blanca.png" alt="Blanca">
-    <h3>B'TWIN 3.500,00€</h3>
-    <img src="images/negra.png" alt="Negra">
-    <h3>B'TWIN Razha 1.925,00€</h3>
-    <img src="images/roja.png" alt="Roja">
-    <h3>ROCKRIDER 2.625,00€</h3>
-    <img src="images/verde.png" alt="Verde">
-    <h3>B'TWIN 4.825,00€</h3>
+    <div id="grupoTablas">
+  <ul>
+    <li><a href="#tab-1">Solapa 1</a></li>
+    <li><a href="#tab-2">Solapa 2</a></li>
+    <li><a href="#tab-3">Solapa 3</a></li>
+  </ul>
+  <div id="tab-1">
+    <p>Contenido 1.</p>
+  </div>
+  <div id="tab-2">
+    <p>Contenido 2.</p>
+  </div>
+  <div id="tab-3">
+    <p>Contenido 3.</p>
+  </div>
+</div>
   </section>
   <article></article>
   <aside></aside>
